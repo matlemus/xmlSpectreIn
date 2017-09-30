@@ -12,7 +12,7 @@ import javax.swing.JFileChooser;
 
 /**
  *
- * @author Marco Trejo 30.09.2017 10:13 am The First Version xml SpectreInside Editor Master
+ * @author Marco Trejo 30.09.2017 10:13 am The First Version oF xml SpectreInside Editor Master
  */
 
     class MyCustomFilter extends javax.swing.filechooser.FileFilter {
