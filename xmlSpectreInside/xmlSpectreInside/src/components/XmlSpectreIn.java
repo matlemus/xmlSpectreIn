@@ -28,14 +28,14 @@ import javax.swing.JFileChooser;
             return "Text documents (*.txt)";
         }
     } 
-public class XmlSpectreInside extends javax.swing.JFrame {
+public class XmlSpectreIn extends javax.swing.JFrame {
 
     private Object textarea;
 
     /**
      * Creates new form OrderSystem
      */
-    public XmlSpectreInside() {
+    public XmlSpectreIn() {
         initComponents();
     }
 
@@ -326,14 +326,22 @@ public class XmlSpectreInside extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(XmlSpectreInside.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(XmlSpectreIn.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(XmlSpectreInside.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(XmlSpectreIn.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(XmlSpectreInside.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(XmlSpectreIn.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(XmlSpectreInside.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(XmlSpectreIn.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
@@ -346,7 +354,7 @@ public class XmlSpectreInside extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new XmlSpectreInside().setVisible(true);
+                new XmlSpectreIn().setVisible(true);
             }
         });
     }
